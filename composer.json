@@ -1,0 +1,21 @@
+{
+    "name": "dyanz/core-php",
+    "description": "core data structure in php",
+    "type": "drupal-module",
+    "require": {
+        "drupal/core": "~9.0"
+    },
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Dyanz\\CorePhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dyanz",
+            "email": "dyanz@ciandt.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
